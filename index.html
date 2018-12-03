@@ -2,46 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>CipherText</title>
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-
-    <header><h1>Caesar Cipher</h1></header>
-    <div id="myDiv">
-
-        <p id="parrafo1">Te gustaría poder enviarle mensajes a tus amig@s y mantener una conversación secreta que solo
-        uds puedan descifrar!? Y así poder hablar tranquilamente de sus vidas, amores, problemas y que te de igual
-        si alguien revisa tu celular? </p>   <img id="imgcifrado" src="CifradoCesar.png" align="right"> <p id="parrafo2"><br>Bueno si es
-        así entonces esta página es para ti!Lo único quegcifrado hacer es ingresar el mensaje que quieras cifrar y elegir un
-        offset para así poder crear un mensaje cifrado. Y LISTO ESO ES TODO!<br>Debes elegir un offset ya que esta página
-        utiliza el <u>cifrado César o cifrado por desplazamiento</u>,donde
-        una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones (offset) más adelante
-        en el alfabeto. </p>
-
-    <button class="botonSgte" id="botonSgte" onclick= "esconder()">Siguiente &raquo</button>
+    <div class="overlay">
+    <header>
+      <h1>Cipher Text</h1>
+      <h2>La mejor forma de mantener una conversación privada</h2>
+    </header>
     </div>
-    <div id="myDiv1"><br>
-      
+
+    <div id="myDiv">
+        <img id="imgphone" src="celulares.jpg">
+        <h2 style="color:#a1887f;">Descripción</h2>
+        <p style="color:#a1887f;" id="paragraph1">Deseas mantener una conversación secreta con tus amigos y que solo uds puedan entender!?
+        Y así poder hablar tranquilamente de sus vidas, amores, problemas sin preocuparte si alguien revisa tu celular?<br>
+        <strong>CipherText</strong> es una aplicación donde puedes cifrar y descifrar los mensajes que tu quieras para despúes enviarselos a tus amigos.
+        Solo tienes que enviarles tu mensaje cifrado junto con el offset que escogiste Y LISTO! podrán descifrar tu mensaje
+        </p>
+        <img id="imgcifrado" src="CifradoCesar.png" align="center">
+        <p style="color:#a1887f;" id="paragraph2">Tienes que elegir un offset, ya que CipherText
+        utiliza el <u>cifrado César o cifrado por desplazamiento</u>, donde una letra en el texto original es reemplazada por
+        otra letra que se encuentra un número fijo de posiciones (offset ó desplazamiento) más adelante en el alfabeto. En la imagen
+        se muestra un ejemplo. <br>
+        El offset es la clave para que tus amigos puedan descifrar el mensaje que les envíes.</p><br><br>
+        <br>
+        <button class="botonNext" id="botonNext"> A Cifrar! &raquo</button>
+    </div>
+
+    <div id="myDiv1"> <br>
       <h3>Instrucciones de uso</h3>
         <ul>
-
           <li>Utilizar abecedario simple</li>
           <li>No usar carácteres especiales ni la letra Ñ</li>
           <li>No elegir un offset negativo</li>
-
-        <ul><br>
-      <p id="parrafo3">Ingresa el mensaje que quieres cifrar o descifrar:</p>
-      <textarea id="cajaTexto" placeholder="Escribe tu mensaje aqui"rows="10" cols="50"></textarea><br>
-      <input  type="text" id="offset" placeholder="Offset"></input><br>
-      <button class="boton" type="number" id="botonCifrar" onclick="cifrar()">Cifrar</button>
-      <button class="boton" type="number" id="botonDescifrar" onclick="descifrar()">Descifrar</button>
-      <button type="number" id="botonVolver" onclick=location=URL>Volver &raquo</button><br>
+        </ul><br>
+      <textarea id="boxText" placeholder="Escribe tu mensaje aqui" rows="10" cols="50"></textarea> <br>
+      <input  type="text" id="offset" placeholder="Offset"> <br> <br>
+      <button class="boton" type="number" id="botonCifrar">Cifrar </button>
+      <button class="boton" type="number" id="botonDescifrar">Descifrar </button>
+      <div id="volver">
+      <button type="number" id="botonVolver" > Volver </button> </div>
       <div id="myDiv2"></div>
-
     </div>
 
     <div id="root">
