@@ -1,13 +1,7 @@
 # Introducción
 CipherText es una aplicación para mantener una conversación privada/secreta con
 tus amigos, familia o quien tu quieras y que solo uds puedan descifrar. CipherText aumenta la seguridad de tus mensajes mediante la codificación del contenido, de manera que solo pueda leerlo la persona que cuente con la clave de cifrado adecuada para descifrarlo. La aplicación cifra y descifra mensajes basándose en el Cifrado César.
-La idea es que ingreses el mensaje que quieres cifrar y además escojas un offset o desplazamiento que va ser determinante para obtener tu mensaje codificado, el cual podrás enviarselo a tus amigos junto con el offset elegido y así ellos podrán ingresar a CipherText y descifrar tu mensaje.
-CipherText es una aplicación dirigida a hombres y mujeres entre 17 y 35 años que utilicen redes sociales, especialmente
-facebook o whatsapp, para mantenerse en contacto y comunicarse con sus amigos y familia, idealmente dependientes del celular o que pasen mucho tiempo en rrss.
-Principalmente para que los usuarios puedan mantener conversaciones realmente privadas y secretas con la o las personas que ellos deseen en el caso de que en su entorno exista alguien que les revisa el celular, también  o que en caso de pérdida de este sus conversaciones no se filtren o publiquen sin su consentimiento.
-
-USUARIO PRODUCTO
-escribir el mensaje en la caja de texto luego en la caja mas pequeña elegir un desplazamiento que va a ser clave para cifrar el mensaje, luego presionar el botón cifrar y obtendra el mensaje cifrado. Con este mensaje puede copiarlo y enviarlo a sus amigos y para eso al final de la página están los links a las paginas principales de las rrss
+La idea es que ingreses el mensaje que quieres cifrar y además escojas un desplazamiento que va ser determinante para obtener tu mensaje codificado, el cual podrás enviarselo a tus amigos junto con el offset elegido y así ellos podrán ingresar a CipherText y descifrar tu mensaje.
 
 ¿Qué es el cifrado César?
 
@@ -17,6 +11,14 @@ El cifrado césar es una de las técnicas más simples para cifrar un mensaje. E
 Por el momento esta app no requiere instalación, ya que se accede a ella desde el siguiente link:
 (https://LeslieSaVa.github.io/scl-2018-11-bc-core-cipher/index.html)
 
+# Usuario ¿Quién?
+Hombres y mujeres entre 17 y 35 años que utilicen redes sociales, especialmente
+facebook o whatsapp, para mantenerse en contacto y comunicarse con sus amigos
+y familia, idealmente dependientes del celular o que pasen mucho tiempo en rrss.
+
+# Necesidad ¿Para qué?
+Principalmente para que los usuarios puedan mantener conversaciones realmente privadas y secretas con la o las personas que ellos deseen en el caso de que en su entorno exista alguien que les revisa el celular, también  en caso de pérdida de este sus conversaciones no se filtren o publiquen sin su consentimiento o que simplemente quieren que sus conversaciones
+no se lean fácilmente a simple vista.
 
 # Historia de usuario
 
@@ -32,33 +34,21 @@ Al pasar a la siguiente pantalla, leyó las instrucciones, escribió un mensaje,
 Pudo utilizar la aplicación sin mayores problemas, sin embargo, las observaciones que me entregó a partir del test fueron:
 - Cifrar y descifrar son palabras complejas que necesitan mas explicación
 - Él entendió lo que era el offset gracias al ejemplo de la imagen
--
-
-#Planificación
-Trello
-#Interfaz de usuario
-#Mejoras futuras
-#Test aplicados
-
-
 
 #Consideraciones de diseño
-- Debido a la simple finalidad de la página se decidió realizar solo dos pantallas. La primera donde se explica brevemente de que trata la aplicación, su finalidad y qué es el offset. La segunda es donde se encuentran las instrucciones, la caja de texto donde el usuario debe escribir su mensaje, la caja del offset, los botones de Cifrar y Descifrar, además de un botón Volver y el área de texto donde se mostrara el mensaje cifrado o descifradp.
+- Debido a la simple finalidad de la página se decidió realizar solo dos pantallas. La primera donde se explica brevemente de que trata la aplicación, para que usarla y qué es el offset. La segunda es donde se encuentran las instrucciones,el área de texto donde el usuario debe escribir su mensaje, la caja del offset, los botones de Cifrar y Descifrar, además de un botón Volver y el área de texto donde se mostrara el mensaje cifrado o descifrado.
 
-
-![Pantalla 1](ImgProyecto1/Pantallauno.png)
-![Pantalla 2](ImgProyecto1/Pantallados.png)
+![Sketch 1](ImgProyecto1/Plantilaauno.jpeg)
 
 
 - La gama de colores elegida fue con la finalidad de darle confianza al usuario,
 que su imagen fuera de una página confiable y a la vez neutra (para Hombres
-y mujeres) que se viera clara, luminosa, simple y sin tanto texto para no aburrir
-al usuario
+y mujeres) que se vea clara, luminosa, simple
 
-- Las dos imagenes principales de la página escogidas fueron escogidas con la finalidad de contagiar al usuario las ganas de usar la app en su celular y a la vez mostrar la conectividad al ver muchas manos con celulares idealmente enviandose mensajes. Son imagénes que reprensentan a los amigos junto con la tecnología y conectividad de hoy en día.
+- Las dos imagenes principales de la página escogidas fueron escogidas con la finalidad de contagiar al usuario las ganas de usar la app en su celular y a la vez mostrar la conectividad al ver muchas manos y celulares idealmente enviandose mensajes. Son imagénes que reprensentan a los amigos junto con la tecnología y la conectividad de hoy en día.
 
 ![Imagen celulares](ImgProyecto1/celulares.jpg)
-![Imagen Principal](ImgProyecto1/
+![Imagen Principal](ImgProyecto1/phonesinletras.jpg)
 
 - También se puede observar una imagen  del cifrado césar para ayudar a comprender al usuario (con un ejemplo) como funciona el cifrado césar y que es el offset.
 
@@ -66,23 +56,22 @@ al usuario
 
 - Las instrucciones son cortas y precisas para que el usuario no se abrume con
 tantas consideraciones de uso.
-- Se incluye un alert para avisarle al usuario de que en caso de que su mensaje
+- Se incluye un alert para avisarle al usuario que en caso de que su mensaje
 contenga la letra Ñ, esta no sera cifrada y se mostrara tal cual en el mensaje cifrado
-- Al final de la página se encuentran enlazadas las principales rrss con el finalde facilitarle al usuario el envío de su mensaje a amigos o familia.l
+- Al final de la página se encuentran enlazadas las principales rrss con el finalidad de facilitarle al usuario el envío de su mensaje a amigos o familia.
+- El resultado final de la página se muestra en la siguiente imagen:
 
+![Pantalla uno](ImgProyecto1/Pantallauno.png)
+![Panatalla dos](ImgProyecto1/Pantallados.png)
 
 #¿Cómo funciona?
 - El usuario debe ingresar a la página
 - Debe leer la breve instroducción acerca del Cifrado César para saber que es
 el offset o desplazamiento que ser requerido más adelante
-- Luego presionar el botón A cifrar !
+- Luego presionar el botón A cifrar ! para pasar a la siguiente pantalla
 - Leer las intrucciones
 - Escribir el mensaje que desea cifrar en la caja de texto donde se lee "Escribir mensaje"
 - A continuación, debe elegir y escribir un número cualquiera en el recuadro que dice offset
 - Luego debe presionar el botón de cifrar o descifrar según sea el caso
 - El mensaje cifrado o descifrado será presentado en otra caja de texto que se encontrara debajo del recuadro del offset
 - Por último el usuario tendrá la opción de volver a la página principal presionando el botón Volver que se encuentra al final de la página
-
-INFO DEVELOPER
-ES6
-TDD BDD
