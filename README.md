@@ -17,17 +17,23 @@ facebook o whatsapp, para mantenerse en contacto y comunicarse con sus amigos
 y familia, idealmente dependientes del celular o que pasen mucho tiempo en rrss.
 
 # Necesidad ¿Para qué?
-Principalmente para que los usuarios puedan mantener conversaciones realmente privadas y secretas con la o las personas que ellos deseen en el caso de que en su entorno exista alguien que les revisa el celular, también  en caso de pérdida de este sus conversaciones no se filtren o publiquen sin su consentimiento o que simplemente quieren que sus conversaciones
-no se lean fácilmente a simple vista.
+Principalmente para que los usuarios puedan mantener conversaciones realmente privadas y secretas con la o las personas que ellos deseen en el caso de que en su entorno exista alguien que les revisa el celular, también  en caso de pérdida de este sus conversaciones no se filtren o publiquen sin su consentimiento o que simplemente quieren que sus conversaciones no se lean fácilmente a simple vista.
 
 # Historia de usuario
 
 ## Javiera y su historia
-Javiera, tiene 20 años es estudiante universitaria, usuaria de rrss facebook pero sobre todo de whatsapp, pasa todo el día revisando sus mensajes y su email. Pepita quiere contarle a su mejor amiga  que quiere terminar con su pololo porque hay actitudes de él que le molestan como que no la deja salir con sus amigas y que le revisa el celular periodicamente.
+Javiera, tiene 20 años es estudiante universitaria, usuaria de rrss facebook pero sobre todo de whatsapp, pasa todo el día revisando sus mensajes y su email. Javiera quiere contarle a su mejor amiga  que quiere terminar con su pololo porque hay actitudes de él que le molestan como que no la deja salir con sus amigas y que le revisa el celular periodicamente.
 Pepita ingresa a CipherText y utiliza la página para escribir su situacíon, obtener un mensaje cifrado y poder copiarlo para enviarselo con tranquilidad a su amiga por whatsapp o facebook junto al desplazamiento(offset) que ella escogió para que su amiga entre a CipherText, pegue el mensaje, digite el offset y pueda descifrar el mensaje de su amiga y a su vez escribirle una respuesta y cifrarla.
 
 # Planificación
 https://trello.com/b/uueobsCT/proyecto-1
+
+## Primer Sketch
+Durante la planificación, en el primer boceto del proyecto se esperaba realizar dos pantallas. La primera donde se encontraría una breve explicación de la aplicación, las instrucciones de uso y un botón para empezar
+que llevaría a la siguiente pantalla.En la segunda pantalla se encontraría el recuadro de texto donde el usuria debe ingresar su mensaje, a continuación una caja de texto más pequeña donde el usurio debe ingresar un número (offset), luego al apretar uno de los botones de cifrar o descifrar se desplegara la caja de texto donde se le mostrara el mensaje ya cifrado al usuario. Finalmente encontrara un botón para volver al inicio
+que corresponde a la primera pantalla.
+
+![Sketch 1](ImgProyecto1/Plantillauno.jpeg)
 
 # ¿Cómo funciona?
 - El usuario debe ingresar a la página
@@ -39,6 +45,8 @@ el offset o desplazamiento que ser requerido más adelante
 - A continuación, debe elegir y escribir un número cualquiera en el recuadro que dice offset
 - Luego debe presionar el botón de cifrar o descifrar según sea el caso
 - El mensaje cifrado o descifrado será presentado en otra caja de texto que se encontrara debajo del recuadro del offset
+- El usuario puede copiar su mensaje cifrado y a través de los links que se encuentran al final de la página
+acceder más rápido a la rrss de su preferencia para enviar ese mensaje codificado a quien desee. 
 - Por último el usuario tendrá la opción de volver a la página principal presionando el botón Volver que se encuentra al final de la página
 ***
 
@@ -50,7 +58,7 @@ Para ejecutar los test se debe correr la instrucción "npm test". El resultado e
 # Consideraciones de diseño
 - Debido a la simple finalidad de la página se decidió realizar solo dos pantallas. La primera donde se explica brevemente de que trata la aplicación, para que usarla y qué es el offset. La segunda es donde se encuentran las instrucciones,el área de texto donde el usuario debe escribir su mensaje, la caja del offset, los botones de Cifrar y Descifrar, además de un botón Volver y el área de texto donde se mostrara el mensaje cifrado o descifrado.
 
-![Sketch 1](ImgProyecto1/Plantillauno.jpeg)
+- El principal cambio con respecto al primer sketch presentado es que finalmente se decidió especificar las instrucciones en la segunda pantalla para no abrumar al usuario con tanto texto en la primera pantalla y así dejarla un poco más clara y precisa.
 
 - La gama de colores elegida fue con la finalidad de darle confianza al usuario,
 que su imagen fuera de una página confiable y a la vez neutra (para Hombres
@@ -68,7 +76,7 @@ y mujeres) que se vea clara, luminosa, simple
 tantas consideraciones de uso.
 - Se incluye un alert para avisarle al usuario que en caso de que su mensaje
 contenga la letra Ñ, esta no sera cifrada y se mostrara tal cual en el mensaje cifrado
-- Al final de la página se encuentran enlazadas las principales rrss con el finalidad de facilitarle al usuario el envío de su mensaje a amigos o familia.
+- Al final de la página se encuentran enlazadas las principales rrss con el finalidad de facilitarle al usuario el envío de su mensaje a amigos o a quién el estime conveniente.
 - El resultado final de la página se muestra en la siguiente imagen:
 
 ![Pantalla uno](ImgProyecto1/Pantallauno.png)
