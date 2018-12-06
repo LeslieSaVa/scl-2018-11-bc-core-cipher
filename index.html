@@ -3,56 +3,78 @@
   <head>
     <meta charset="utf-8">
     <title>CipherText</title>
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts/style.css">
   </head>
 
   <body>
+
     <div class="overlay">
     <header>
-      <h1>Cipher Text</h1>
-      <h2>La mejor forma de mantener una conversación privada</h2>
+      <h1 id="pageName">Cipher Text</h1>
+      <h2 id="slogan">La mejor forma de tener una conversación privada</h2>
     </header>
     </div>
 
+    <p class="paragraph" id="paragraph0">Deseas mantener una conversación secreta con tus amigos y que solo uds puedan entender!?
+    Y así poder hablar tranquilamente de sus vidas, amores, problemas sin preocuparte si alguien revisa tu celular?</p>
+
     <div id="myDiv">
         <img id="imgphone" src="celulares.jpg">
-        <h2 style="color:#a1887f;">Descripción</h2>
-        <p style="color:#a1887f;" id="paragraph1">Deseas mantener una conversación secreta con tus amigos y que solo uds puedan entender!?
-        Y así poder hablar tranquilamente de sus vidas, amores, problemas sin preocuparte si alguien revisa tu celular?<br>
-        <strong>CipherText</strong> es una aplicación donde puedes cifrar y descifrar los mensajes que tu quieras para despúes enviarselos a tus amigos.
-        Solo tienes que enviarles tu mensaje cifrado junto con el offset que escogiste Y LISTO! podrán descifrar tu mensaje
+
+        <p class="paragraph"  id="paragraph1">
+        <strong>CipherText</strong> es una aplicación que permite aumentar la seguridad de tus mensajes mediante la codificación del
+        contenido, de manera que solo pueda leerlo la persona que cuente con la clave de cifrado adecuada para descifrarlo. Puedes cifrar
+        y descifrar los mensajes que tú quieras para despúes enviarselos a tus amigos. Sólo tienes que enviarles tu mensaje cifrado junto
+        con el offset que escogiste Y LISTO! podrán descifrar tu mensaje
         </p>
-        <img id="imgcifrado" src="CifradoCesar.png" align="center">
-        <p style="color:#a1887f;" id="paragraph2">Tienes que elegir un offset, ya que CipherText
+        <img id="imgcifrado" src="ciphercode.jpg" align="center">
+        <p class="paragraph" id="paragraph2"> <br>Tienes que elegir un offset, ya que CipherText
         utiliza el <u>cifrado César o cifrado por desplazamiento</u>, donde una letra en el texto original es reemplazada por
         otra letra que se encuentra un número fijo de posiciones (offset ó desplazamiento) más adelante en el alfabeto. En la imagen
-        se muestra un ejemplo. <br>
-        El offset es la clave para que tus amigos puedan descifrar el mensaje que les envíes.</p><br><br>
+        se muestra un ejemplo. <br> </p> <br><br>
         <br>
-        <button class="botonNext" id="botonNext"> A Cifrar! &raquo</button>
+        <button class="boton" id="botonNext"> A Cifrar! &raquo</button>
     </div>
 
     <div id="myDiv1"> <br>
       <h3>Instrucciones de uso</h3>
-        <ul>
+        <ul id="Instruction">
           <li>Utilizar abecedario simple</li>
           <li>No usar carácteres especiales ni la letra Ñ</li>
           <li>No elegir un offset negativo</li>
         </ul><br>
       <textarea id="boxText" placeholder="Escribe tu mensaje aqui" rows="10" cols="50"></textarea> <br>
-      <input  type="text" id="offset" placeholder="Offset"> <br> <br>
+      <input  type="text" id="offset" placeholder="Offset"> <br>
       <button class="boton" type="number" id="botonCifrar">Cifrar </button>
       <button class="boton" type="number" id="botonDescifrar">Descifrar </button>
-      <div id="volver">
-      <button type="number" id="botonVolver" > Volver </button> </div>
+      <br>
       <div id="myDiv2"></div>
-    </div>
-
-    <div id="root">
+      <div id="volver"><button class ="boton" type="number" id="botonVolver" > Volver </button> </div>
 
     </div>
+    <div class="footer-main-div">
+    <div class="footer-social-icons">
+      <ul id="socialmedia">
+        <li><a href="http://www.facebook.com" target="_blank"><i class="icon-facebook"></i></a></li>
+        <li><a href="http://www.gmail.com" target="_blank"><i class="icon-gmail"></i></a></li>
+        <li><a href="http://www.twitter.com" target="_blank"><i class="icon-twitter"></i></a></li>
+        <li><a href="http://www.youtube.com" target="_blank"><i class="icon-youtube"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-menu-one">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Design by: <a href="#">ksldjsadlkjsd</a></p></div>
+
+    <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

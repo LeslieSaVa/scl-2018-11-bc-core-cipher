@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?jdrdfx');
+  src:  url('icomoon.eot?jdrdfx#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?jdrdfx') format('truetype'),
+    url('icomoon.woff?jdrdfx') format('woff'),
+    url('icomoon.svg?jdrdfx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gmail:before {
+  content: "\e900";
+  color: #d14836;
+}
+.icon-googleplus:before {
+  content: "\e901";
+  color: #dc4e41;
+}
+.icon-facebook:before {
+  content: "\e902";
+  color: #3b5998;
+}
+.icon-pinterest:before {
+  content: "\e903";
+  color: #bd081c;
+}
+.icon-youtube:before {
+  content: "\e904";
+  color: #f00;
+}
+.icon-angellist:before {
+  content: "\e905";
+}
+.icon-twitter:before {
+  content: "\e906";
+  color: #1da1f2;
+}
+.icon-messenger:before {
+  content: "\e907";
+  color: #0084ff;
+}
