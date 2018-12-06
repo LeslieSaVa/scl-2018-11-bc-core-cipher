@@ -26,7 +26,10 @@ no se lean fácilmente a simple vista.
 Javiera, tiene 20 años es estudiante universitaria, usuaria de rrss facebook pero sobre todo de whatsapp, pasa todo el día revisando sus mensajes y su email. Pepita quiere contarle a su mejor amiga  que quiere terminar con su pololo porque hay actitudes de él que le molestan como que no la deja salir con sus amigas y que le revisa el celular periodicamente.
 Pepita ingresa a CipherText y utiliza la página para escribir su situacíon, obtener un mensaje cifrado y poder copiarlo para enviarselo con tranquilidad a su amiga por whatsapp o facebook junto al desplazamiento(offset) que ella escogió para que su amiga entre a CipherText, pegue el mensaje, digite el offset y pueda descifrar el mensaje de su amiga y a su vez escribirle una respuesta y cifrarla.
 
-#¿Cómo funciona?
+# Planificación
+https://trello.com/b/uueobsCT/proyecto-1
+
+# ¿Cómo funciona?
 - El usuario debe ingresar a la página
 - Debe leer la breve instroducción acerca del Cifrado César para saber que es
 el offset o desplazamiento que ser requerido más adelante
@@ -38,14 +41,6 @@ el offset o desplazamiento que ser requerido más adelante
 - El mensaje cifrado o descifrado será presentado en otra caja de texto que se encontrara debajo del recuadro del offset
 - Por último el usuario tendrá la opción de volver a la página principal presionando el botón Volver que se encuentra al final de la página
 ***
-# Test del Prototipado
-La aplicación se sometió al testeo de Alex, estudiante, 26 años. Él al abrir la página leyó atentamente toda la
-primera pantalla de introducción, luego se le presento la duda del offset pero al observar la imagen donde se muestra el ejemplo del cifrado pudo resolver su inquietud y continuar.
-Al pasar a la siguiente pantalla, leyó las instrucciones, escribió un mensaje, eligió un offset y logró cifrar el mensaje.
-Pudo utilizar la aplicación sin mayores problemas, sin embargo, las observaciones que me entregó a partir del test fueron:
-- Cifrar y descifrar son palabras complejas que necesitan mas explicación
-- Él entendió lo que era el offset gracias al ejemplo de la imagen
-- De las conclusiones del test se puede decir que:
 
 # Test Aplicados
 Para ejecutar los test se debe correr la instrucción "npm test". El resultado en la consola es el siguiente:
