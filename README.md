@@ -26,20 +26,36 @@ no se lean fácilmente a simple vista.
 Javiera, tiene 20 años es estudiante universitaria, usuaria de rrss facebook pero sobre todo de whatsapp, pasa todo el día revisando sus mensajes y su email. Pepita quiere contarle a su mejor amiga  que quiere terminar con su pololo porque hay actitudes de él que le molestan como que no la deja salir con sus amigas y que le revisa el celular periodicamente.
 Pepita ingresa a CipherText y utiliza la página para escribir su situacíon, obtener un mensaje cifrado y poder copiarlo para enviarselo con tranquilidad a su amiga por whatsapp o facebook junto al desplazamiento(offset) que ella escogió para que su amiga entre a CipherText, pegue el mensaje, digite el offset y pueda descifrar el mensaje de su amiga y a su vez escribirle una respuesta y cifrarla.
 
+#¿Cómo funciona?
+- El usuario debe ingresar a la página
+- Debe leer la breve instroducción acerca del Cifrado César para saber que es
+el offset o desplazamiento que ser requerido más adelante
+- Luego presionar el botón A cifrar ! para pasar a la siguiente pantalla
+- Leer las intrucciones
+- Escribir el mensaje que desea cifrar en la caja de texto donde se lee "Escribir mensaje"
+- A continuación, debe elegir y escribir un número cualquiera en el recuadro que dice offset
+- Luego debe presionar el botón de cifrar o descifrar según sea el caso
+- El mensaje cifrado o descifrado será presentado en otra caja de texto que se encontrara debajo del recuadro del offset
+- Por último el usuario tendrá la opción de volver a la página principal presionando el botón Volver que se encuentra al final de la página
 ***
-#Test del Prototipado
+# Test del Prototipado
 La aplicación se sometió al testeo de Alex, estudiante, 26 años. Él al abrir la página leyó atentamente toda la
 primera pantalla de introducción, luego se le presento la duda del offset pero al observar la imagen donde se muestra el ejemplo del cifrado pudo resolver su inquietud y continuar.
 Al pasar a la siguiente pantalla, leyó las instrucciones, escribió un mensaje, eligió un offset y logró cifrar el mensaje.
 Pudo utilizar la aplicación sin mayores problemas, sin embargo, las observaciones que me entregó a partir del test fueron:
 - Cifrar y descifrar son palabras complejas que necesitan mas explicación
 - Él entendió lo que era el offset gracias al ejemplo de la imagen
+- De las conclusiones del test se puede decir que:
 
-#Consideraciones de diseño
+# Test Aplicados
+Para ejecutar los test se debe correr la instrucción "npm test". El resultado en la consola es el siguiente:
+
+![Test](ImgProyecto1/Test.png)
+
+# Consideraciones de diseño
 - Debido a la simple finalidad de la página se decidió realizar solo dos pantallas. La primera donde se explica brevemente de que trata la aplicación, para que usarla y qué es el offset. La segunda es donde se encuentran las instrucciones,el área de texto donde el usuario debe escribir su mensaje, la caja del offset, los botones de Cifrar y Descifrar, además de un botón Volver y el área de texto donde se mostrara el mensaje cifrado o descifrado.
 
-![Sketch 1](ImgProyecto1/Plantilaauno.jpeg)
-
+![Sketch 1](ImgProyecto1/Plantillauno.jpeg)
 
 - La gama de colores elegida fue con la finalidad de darle confianza al usuario,
 que su imagen fuera de una página confiable y a la vez neutra (para Hombres
@@ -48,7 +64,6 @@ y mujeres) que se vea clara, luminosa, simple
 - Las dos imagenes principales de la página escogidas fueron escogidas con la finalidad de contagiar al usuario las ganas de usar la app en su celular y a la vez mostrar la conectividad al ver muchas manos y celulares idealmente enviandose mensajes. Son imagénes que reprensentan a los amigos junto con la tecnología y la conectividad de hoy en día.
 
 ![Imagen celulares](ImgProyecto1/celulares.jpg)
-![Imagen Principal](ImgProyecto1/phonesinletras.jpg)
 
 - También se puede observar una imagen  del cifrado césar para ayudar a comprender al usuario (con un ejemplo) como funciona el cifrado césar y que es el offset.
 
@@ -63,15 +78,3 @@ contenga la letra Ñ, esta no sera cifrada y se mostrara tal cual en el mensaje 
 
 ![Pantalla uno](ImgProyecto1/Pantallauno.png)
 ![Panatalla dos](ImgProyecto1/Pantallados.png)
-
-#¿Cómo funciona?
-- El usuario debe ingresar a la página
-- Debe leer la breve instroducción acerca del Cifrado César para saber que es
-el offset o desplazamiento que ser requerido más adelante
-- Luego presionar el botón A cifrar ! para pasar a la siguiente pantalla
-- Leer las intrucciones
-- Escribir el mensaje que desea cifrar en la caja de texto donde se lee "Escribir mensaje"
-- A continuación, debe elegir y escribir un número cualquiera en el recuadro que dice offset
-- Luego debe presionar el botón de cifrar o descifrar según sea el caso
-- El mensaje cifrado o descifrado será presentado en otra caja de texto que se encontrara debajo del recuadro del offset
-- Por último el usuario tendrá la opción de volver a la página principal presionando el botón Volver que se encuentra al final de la página
