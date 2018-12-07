@@ -1,4 +1,7 @@
 # Introducción
+
+![CipherText](ImgProyecto1/ImagenPrincipal.png)
+
 CipherText es una aplicación para mantener una conversación privada/secreta con
 tus amigos, familia o quien tu quieras y que solo uds puedan descifrar. CipherText aumenta la seguridad de tus mensajes mediante la codificación del contenido, de manera que solo pueda leerlo la persona que cuente con la clave de cifrado adecuada para descifrarlo.
 La idea es que ingreses el mensaje que quieres cifrar y además escojas un desplazamiento que va ser determinante para obtener tu mensaje codificado, el cual podrás enviarselo a tus amigos junto con el offset elegido y así ellos podrán ingresar a CipherText y descifrar tu mensaje.
@@ -37,8 +40,9 @@ que corresponde a la primera pantalla.
 
 # ¿Cómo funciona?
 - El usuario debe ingresar a la página
+- Leer breve introducción acerca del sitio y su utilidad
 - Debe leer la breve instroducción acerca del Cifrado César para saber que es
-el offset o desplazamiento que ser requerido más adelante
+el offset o desplazamiento que será requerido más adelante
 - Luego presionar el botón Comenzar para pasar a la siguiente pantalla
 - Leer las intrucciones
 - Escribir el mensaje que desea cifrar en la caja de texto donde se lee "Escribir mensaje"
@@ -46,7 +50,7 @@ el offset o desplazamiento que ser requerido más adelante
 - Luego debe presionar el botón de cifrar o descifrar según sea el caso
 - El mensaje cifrado o descifrado será presentado en otra caja de texto que se encontrara debajo del recuadro del offset
 - El usuario puede copiar su mensaje cifrado y a través de los links que se encuentran al final de la página
-acceder más rápido a la rrss de su preferencia para enviar ese mensaje codificado a quien desee.
+acceder más rápido a la red social de su preferencia para enviar ese mensaje codificado a quien desee.
 - Por último el usuario tendrá la opción de volver a la página principal presionando el botón Volver que se encuentra al final de la página
 ***
 
@@ -59,6 +63,8 @@ Para ejecutar los test se debe correr la instrucción "npm test". El resultado e
 - Debido a la simple finalidad de la página se decidió realizar solo dos pantallas. La primera donde se explica brevemente de que trata la aplicación, para que usarla y qué es el offset. La segunda es donde se encuentran las instrucciones,el área de texto donde el usuario debe escribir su mensaje, la caja del offset, los botones de Cifrar y Descifrar, además de un botón Volver y el área de texto donde se mostrara el mensaje cifrado o descifrado.
 
 - El principal cambio con respecto al primer sketch presentado es que finalmente se decidió especificar las instrucciones en la segunda pantalla para no abrumar al usuario con tanto texto en la primera pantalla y así dejarla un poco más clara y precisa.
+
+- El tipo de tipografía elegido se debe a que es una fuente clara, poco cursiva y más redonda para que sea mas legible y fácil de leer para el usuario.
 
 - Los parrafos están dispuestos de esa manera (el primero de centrado y el que le sigue de izq a derecha) ya que existen estudios donde se comprueba que el ojo humano esta acostumbrado para comenzar a leer de izquierda a derecha.
 
