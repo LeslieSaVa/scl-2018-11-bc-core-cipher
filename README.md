@@ -14,7 +14,7 @@ Por el momento esta app no requiere instalación, ya que se accede a ella desde 
 # Usuario ¿Quién?
 Hombres y mujeres entre 17 y 35 años que utilicen redes sociales, especialmente
 facebook o whatsapp, para mantenerse en contacto y comunicarse con sus amigos
-y familia, idealmente dependientes del celular o que pasen mucho tiempo en rrss.
+y familia, que sean dependientes del celular o que pasen mucho tiempo en rrss.
 
 # Necesidad ¿Para qué?
 Principalmente para que los usuarios puedan mantener conversaciones realmente privadas y secretas con la o las personas que ellos deseen en el caso de que en su entorno exista alguien que les revisa el celular, también  en caso de pérdida de este sus conversaciones no se filtren o publiquen sin su consentimiento o que simplemente quieren que sus conversaciones no se lean fácilmente a simple vista.
