@@ -66,7 +66,7 @@ Para ejecutar los test se debe correr la instrucción "npm test". El resultado e
 - La gama de colores elegida fue con la finalidad de darle confianza al usuario, que su imagen fuera de una página confiable y a la vez neutra (para Hombres y mujeres) que se vea clara, luminosa, simple.
 Esta paleta la obtuve de la página https://materializecss.com/color.html y la que utilice fue la siguiente:
 
-![Paleta de colores](Paletadecolores.png)
+![Paleta de colores](ImgProyecto1/Paletadecolores.png)
 
 - Una de las imágenes de la página escogida fue con la finalidad de contagiar al usuario las ganas de usar la app en su celular y a la vez mostrar la conectividad al ver muchas manos y celulares, idealmente enviandose mensajes. Son imagénes que reprensentan a los amigos junto con la tecnología y la conectividad de hoy en día.
 
