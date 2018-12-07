@@ -31,7 +31,7 @@ https://trello.com/b/uueobsCT/proyecto-1
 
 ## Primer Sketch
 Durante la planificación, en el primer boceto del proyecto se esperaba realizar dos pantallas. La primera donde se encontraría una breve explicación de la aplicación, las instrucciones de uso y un botón para empezar
-que llevaría a la siguiente pantalla.En la segunda pantalla se encontraría el recuadro de texto donde el usuria debe ingresar su mensaje, a continuación una caja de texto más pequeña donde el usurio debe ingresar un número (offset), luego al apretar uno de los botones de cifrar o descifrar se desplegara la caja de texto donde se le mostrara el mensaje ya cifrado al usuario. Finalmente encontrara un botón para volver al inicio
+que llevaría a la siguiente pantalla.En la segunda pantalla se encontraría el recuadro de texto donde el usuario debe ingresar su mensaje, a continuación una caja de texto más pequeña donde el usuario debe ingresar un número (offset), luego al apretar uno de los botones de cifrar o descifrar se desplegara la caja de texto donde se le mostrara el mensaje ya cifrado. Finalmente encontrara un botón para volver al inicio,
 que corresponde a la primera pantalla.
 
 ![Sketch 1](ImgProyecto1/Plantillauno.jpeg)
@@ -61,7 +61,7 @@ Para ejecutar los test se debe correr la instrucción "npm test". El resultado e
 
 - El principal cambio con respecto al primer sketch presentado es que finalmente se decidió especificar las instrucciones en la segunda pantalla para no abrumar al usuario con tanto texto en la primera pantalla y así dejarla un poco más clara y precisa.
 
-- Los parrafos están dispuestos de esa manera ya que existen estudios donde se comprueba que para el ojo humano es más fácil comenzar a leer de izquierda a derecha.
+- Los parrafos están dispuestos de esa manera (el primero de centrado y el que le sigue de izq a derecha) ya que existen estudios donde se comprueba que para el ojo humano es más fácil comenzar a leer de izquierda a derecha.
 
 - La gama de colores elegida fue con la finalidad de darle confianza al usuario, que su imagen fuera de una página confiable y a la vez neutra (para Hombres y mujeres) que se vea clara, luminosa, simple.
 Esta paleta la obtuve de la página https://materializecss.com/color.html y la que utilice fue la siguiente:
