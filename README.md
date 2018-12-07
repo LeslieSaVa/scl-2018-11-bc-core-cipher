@@ -1,10 +1,10 @@
 # Introducción
 CipherText es una aplicación para mantener una conversación privada/secreta con
-tus amigos, familia o quien tu quieras y que solo uds puedan descifrar. CipherText aumenta la seguridad de tus mensajes mediante la codificación del contenido, de manera que solo pueda leerlo la persona que cuente con la clave de cifrado adecuada para descifrarlo. La aplicación cifra y descifra mensajes basándose en el Cifrado César.
+tus amigos, familia o quien tu quieras y que solo uds puedan descifrar. CipherText aumenta la seguridad de tus mensajes mediante la codificación del contenido, de manera que solo pueda leerlo la persona que cuente con la clave de cifrado adecuada para descifrarlo.
 La idea es que ingreses el mensaje que quieres cifrar y además escojas un desplazamiento que va ser determinante para obtener tu mensaje codificado, el cual podrás enviarselo a tus amigos junto con el offset elegido y así ellos podrán ingresar a CipherText y descifrar tu mensaje.
 
 ¿Qué es el cifrado César?
-
+CipherText cifra y descifra mensajes basándose en el Cifrado César.
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
 # Instalación
@@ -18,6 +18,7 @@ y familia, idealmente dependientes del celular o que pasen mucho tiempo en rrss.
 
 # Necesidad ¿Para qué?
 Principalmente para que los usuarios puedan mantener conversaciones realmente privadas y secretas con la o las personas que ellos deseen en el caso de que en su entorno exista alguien que les revisa el celular, también  en caso de pérdida de este sus conversaciones no se filtren o publiquen sin su consentimiento o que simplemente quieren que sus conversaciones no se lean fácilmente a simple vista.
+
 
 # Historia de usuario
 
@@ -46,7 +47,7 @@ el offset o desplazamiento que ser requerido más adelante
 - Luego debe presionar el botón de cifrar o descifrar según sea el caso
 - El mensaje cifrado o descifrado será presentado en otra caja de texto que se encontrara debajo del recuadro del offset
 - El usuario puede copiar su mensaje cifrado y a través de los links que se encuentran al final de la página
-acceder más rápido a la rrss de su preferencia para enviar ese mensaje codificado a quien desee. 
+acceder más rápido a la rrss de su preferencia para enviar ese mensaje codificado a quien desee.
 - Por último el usuario tendrá la opción de volver a la página principal presionando el botón Volver que se encuentra al final de la página
 ***
 
@@ -60,11 +61,14 @@ Para ejecutar los test se debe correr la instrucción "npm test". El resultado e
 
 - El principal cambio con respecto al primer sketch presentado es que finalmente se decidió especificar las instrucciones en la segunda pantalla para no abrumar al usuario con tanto texto en la primera pantalla y así dejarla un poco más clara y precisa.
 
-- La gama de colores elegida fue con la finalidad de darle confianza al usuario,
-que su imagen fuera de una página confiable y a la vez neutra (para Hombres
-y mujeres) que se vea clara, luminosa, simple
+- Los parrafos están dispuestos de esa manera ya que existen estudios donde se comprueba que para el ojo humano es más fácil comenzar a leer de izquierda a derecha.
 
-- Las dos imagenes principales de la página escogidas fueron escogidas con la finalidad de contagiar al usuario las ganas de usar la app en su celular y a la vez mostrar la conectividad al ver muchas manos y celulares idealmente enviandose mensajes. Son imagénes que reprensentan a los amigos junto con la tecnología y la conectividad de hoy en día.
+- La gama de colores elegida fue con la finalidad de darle confianza al usuario, que su imagen fuera de una página confiable y a la vez neutra (para Hombres y mujeres) que se vea clara, luminosa, simple.
+Esta paleta la obtuve de la página https://materializecss.com/color.html y la que utilice fue la siguiente:
+
+![Paleta de colores](Paletadecolores.png)
+
+- Una de las imágenes de la página escogida fue con la finalidad de contagiar al usuario las ganas de usar la app en su celular y a la vez mostrar la conectividad al ver muchas manos y celulares, idealmente enviandose mensajes. Son imagénes que reprensentan a los amigos junto con la tecnología y la conectividad de hoy en día.
 
 ![Imagen celulares](ImgProyecto1/celulares.jpg)
 
