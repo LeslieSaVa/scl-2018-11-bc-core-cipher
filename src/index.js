@@ -2,9 +2,11 @@ window.onload = ()=>{
 document.getElementById("botonNext").addEventListener("click",
 (evento) =>{
   evento.preventDefault();
+
   document.getElementById("paragraph0").style.display="none";
   document.getElementById("myDiv").style.display ="none";
   document.getElementById("myDiv1").style.display ="block";
+  document.getElementById("socialmedia").style.display="block";
 
 })
 
