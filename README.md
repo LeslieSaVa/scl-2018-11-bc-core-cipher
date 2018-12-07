@@ -3,12 +3,14 @@
 ![CipherText](ImgProyecto1/ImagenPrincipal.png)
 
 CipherText es una aplicación para mantener una conversación privada/secreta con
-tus amigos, familia o quien tu quieras y que solo uds puedan descifrar. CipherText aumenta la seguridad de tus mensajes mediante la codificación del contenido, de manera que solo pueda leerlo la persona que cuente con la clave de cifrado adecuada para descifrarlo.
+tus amigos, familia o quien tu quieras y que solo uds puedan descifrar. La aplicación aumenta la seguridad de tus mensajes mediante la codificación del contenido, de manera que solo pueda leerlo la persona que cuente con la clave de cifrado adecuada para descifrarlo.
 La idea es que ingreses el mensaje que quieres cifrar y además escojas un desplazamiento que va ser determinante para obtener tu mensaje codificado, el cual podrás enviarselo a tus amigos junto con el offset elegido y así ellos podrán ingresar a CipherText y descifrar tu mensaje.
 
 ¿Qué es el cifrado César?
 CipherText cifra y descifra mensajes basándose en el Cifrado César.
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
+
+![Imagen Ejemplo](ImgProyecto1/ciphercode1.jpg)
 
 # Instalación
 Por el momento esta app no requiere instalación, ya que se accede a ella desde el siguiente link:
