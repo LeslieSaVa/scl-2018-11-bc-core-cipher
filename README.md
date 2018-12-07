@@ -39,7 +39,7 @@ que corresponde a la primera pantalla.
 - El usuario debe ingresar a la página
 - Debe leer la breve instroducción acerca del Cifrado César para saber que es
 el offset o desplazamiento que ser requerido más adelante
-- Luego presionar el botón Comenzar  para pasar a la siguiente pantalla
+- Luego presionar el botón Comenzar para pasar a la siguiente pantalla
 - Leer las intrucciones
 - Escribir el mensaje que desea cifrar en la caja de texto donde se lee "Escribir mensaje"
 - A continuación, debe elegir y escribir un número cualquiera en el recuadro que dice offset
@@ -82,5 +82,5 @@ contenga la letra Ñ, esta no sera cifrada y se mostrara tal cual en el mensaje 
 - Al final de la página se encuentran enlazadas las principales rrss con el finalidad de facilitarle al usuario el envío de su mensaje a amigos o a quién el estime conveniente.
 - El resultado final de la página se muestra en la siguiente imagen:
 
-![Pantalla uno](ImgProyecto1/Pantallauno.png)
-![Panatalla dos](ImgProyecto1/Pantallados.png)
+![Pantalla uno](ImgProyecto1/Pantalla1.png)
+![Panatalla dos](ImgProyecto1/Pantalla2.png)
