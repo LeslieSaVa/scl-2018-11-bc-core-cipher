@@ -14,7 +14,7 @@ El cifrado césar es una de las técnicas más simples para cifrar un mensaje. E
 
 # Instalación
 Por el momento esta app no requiere instalación, ya que se accede a ella desde el siguiente link:
-(https://LeslieSaVa.github.io/scl-2018-11-bc-core-cipher/index.html)
+(https://lesliesava.github.io/scl-2018-11-bc-core-cipher/)
 
 # Usuario ¿Quién?
 Hombres y mujeres entre 17 y 35 años que utilicen redes sociales, especialmente
